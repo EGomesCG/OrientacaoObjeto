@@ -21,6 +21,7 @@ namespace OrientacaoObjeto
         {
             base.Saldo += valor;
         }
+        //Tudo que existe na interface tem que se implementado na classe
         public decimal CalcularTributo()
         {
             return base.Saldo * 0.02m;

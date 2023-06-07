@@ -46,7 +46,6 @@ namespace OrientacaoObjeto
             this.limite = limite;
         }
 
-
         //Para realizar alterações em uma propriedade privada
         //É comum utilizar o metodo, para isto.
         public void SetAgencia(int agencia)
